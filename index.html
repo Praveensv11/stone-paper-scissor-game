@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="btn-container">
+            <input type="button" id="stone" class="btn" onclick="game('stone')" value="stone">
+            <input type="button" id="paper" class="btn" onclick="game('paper')" value="paper">
+            <input type="button" id="scissor" class="btn" onclick="game('scissor')" value="scissor">
+        </div>
+        <div class="result">
+            <div id="player">0 : Player</div>
+            <div id="computer">0 : Computer</div>
+        </div>
+        <div id="result"></div>
+        <div id="result1"></div>
+        <button onclick="reset()" class="reset">Reset</button>
+    </div>
+    <script src=" main.js"></script>
+</body>
+
+</html>
